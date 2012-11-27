@@ -6,7 +6,7 @@ module Rulers
 			cont = cont.capitalize
 			cont += "Controller"
 
-				[Object.const_get(cont), action]
+			[Object.const_get(cont), action]
 	    end
 	end
 end
